@@ -26,4 +26,4 @@ jobs:
   container: $[ variables['containerResource'] ]
 
   steps:
-  - script: echo hello
+  - script: echo hostname
