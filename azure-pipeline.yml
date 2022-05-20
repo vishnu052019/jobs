@@ -1,6 +1,6 @@
 container:
-  image: registry:ubuntu1604
-  endpoint: private_dockerhub_connection
+  image: myprivate.azurecr.io/windowsservercore:1803
+  endpoint: my_acr_connection
 
 steps:
 - script: echo hello
