@@ -1,6 +1,6 @@
 container:
-  image: myprivate.azurecr.io/windowsservercore:1803
-  endpoint: my_acr_connection
+  image: ubuntu:18.04
+  options: --hostname container-test --ip 192.168.0.1
 
 steps:
 - script: echo hello
