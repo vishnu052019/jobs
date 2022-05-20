@@ -1,7 +1,7 @@
-jobs:
-- job: myJob
-  timeoutInMinutes: 10
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - bash: echo "Hello world"
+pool:
+  vmImage: 'ubuntu-18.04'
+
+container: ubuntu:18.04
+
+steps:
+- script: printenv
